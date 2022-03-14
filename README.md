@@ -8,7 +8,7 @@ Solar power is a clean and renewable source of energy. As the world is moving to
 - Solar radiation data for year 2013: 1.6 TB
 - PhotoVoltaic Data Source for year 2013: 6 GB
 
-# ETL Pipleline
+# ETL Pipeline
 - Used the Pyspark for analysis data in aws EMR cluster.
 
 # Bootstrapping Script
