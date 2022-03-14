@@ -9,7 +9,9 @@ Solar power is a clean and renewable source of energy. As the world is moving to
 - PhotoVoltaic Data Source for year 2013: 6 GB
 
 # ETL Pipeline
-- Used the Pyspark for analysis data in aws EMR cluster.
+- Used the Pyspark for analysis data in AWS EMR cluster.
+![alt text](https://github.com/umeshkhaniya/TDI_Captsone_project/blob/main/image/captsone_sketch.jpg)
+
 
 # Bootstrapping Script
 The software and dependencies requiremnts can be found in bootstrap_cap.sh file
