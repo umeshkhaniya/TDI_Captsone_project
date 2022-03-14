@@ -1,5 +1,5 @@
 # Solar Market Analysis in New York City And Albany
-This project involves the potential location for the solar market in New York City And Albany based on zip code. The data used in the project are from the solar radiation dataset and photovoltaic rooftop data set. The data used here is from the year 2013 since we only have common data for both sets for the year 2013. This project will accurately predict the potential location of the solar industry.
+This project involves the potential location for the solar market in New York City And Albany based on latitude and longitude. The data used in the project are from the solar radiation dataset and photovoltaic rooftop data set. The data used here is from the year 2013 since we only have common data for both sets for the year 2013. This project will accurately predict the potential location of the solar industry.
 
 # Introduction: 
 Solar power is a clean and renewable source of energy. As the world is moving to clean energy, the urban solar market has a great future in the world. Therefore, analyzing the solar power market is very important for solar industries. By keeping in mind, this project is investigating the zip code location for the solar panel market.
