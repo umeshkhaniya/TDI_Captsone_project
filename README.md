@@ -39,6 +39,6 @@ Python Script can directly used to run in the EC2 instance.
 
 # Frontend Deployment using Heroku and Streamlit: 
 Folder: heroku_deploy
-Link: 
+Link: https://tdi-captsone-uk.herokuapp.com
 
 
