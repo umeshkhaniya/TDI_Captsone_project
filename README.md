@@ -28,7 +28,7 @@ The software and dependencies requiremnts can be found in bootstrap_cap.sh file
 
 # Scripts
 The jupyter notebook is provided here is used  in running  EMR cluster to setup the system.
-Python Script can directly used to run in the EC2 instance provided all the essential permission.
+Python Script can directly used to run in the EC2 instance provided all the essential Iam user permission.
 1. Creating the S3 bucket using boto3: aws_bucket_creation.ipynb
 2. Processing 1.6 TB of data using the partition in EMR jupyter Notebook: solar_ingest_input.ipynb
 3. Processing Photovoltic data using EMR jupyter Notebook and saved into local S3 bucket: pv_rooftopinput_processing.ipynb
