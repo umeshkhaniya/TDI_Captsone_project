@@ -34,6 +34,8 @@ Python Script can directly used to run in the EC2 instance.
 5. Visualization in Local computer taking few data points: visualization.ipynb
 6. Heroku is used for deployement. Only few Samples of data are taken:Folder: heroku_deploy
 
-# Frontend Deployment using Heroku and Streamlit: heroku_deploy
+# Frontend Deployment using Heroku and Streamlit: 
+Folder: heroku_deploy
+Link: 
 
 
