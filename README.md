@@ -1,15 +1,14 @@
 # Solar Market Analysis in New York City And Albany
-This project involves the potential location for the solar market in New York City And Albany based on latitude and longitude. The data used in the project are from the solar radiation dataset and photovoltaic rooftop data set. The data used here is from the year 2013 since we only have common data for both sets for the year 2013. This project will accurately predict the potential location of the solar industry.
+This project explores potential locations for the solar market in New York City and Albany based on latitude and longitude. The data used in the project comes from a solar radiation dataset and a photovoltaic rooftop dataset. We use data from the year 2013, as it is the only year for which both datasets have common records. This project aims to accurately identify promising locations for solar industry development.
 
 # Introduction: 
-Solar power is a clean and renewable source of energy. As the world is moving to clean energy, the urban solar market has a great future in the world. Therefore, analyzing the solar power market is very important for solar industries. By keeping in mind, this project is investigating the zip code location for the solar panel market.
+Solar power is a clean and renewable source of energy. As the world transitions to clean energy, the urban solar market holds great potential globally. Therefore, analyzing the solar power market is crucial for the growth of the solar industry. With this in mind, this project investigates zip code locations for potential solar panel markets.
 
 # Data Source 
 - Solar radiation data for year 2013: 1.6 TB
 - PhotoVoltaic Data Source for year 2013: 6 GB
 
 # ETL Pipeline
-- Used the Pyspark for analysis data in AWS EMR cluster.
 ![alt text](https://github.com/umeshkhaniya/TDI_Captsone_project/blob/main/image/captsone_sketch.jpg)
 
 
@@ -27,17 +26,25 @@ The software and dependencies requiremnts can be found in bootstrap_cap.sh file
  uszipcode
 
 # Scripts
-The jupyter notebook is provided here is used  in running  EMR cluster to setup the system.
-Python Script can directly used to run in the EC2 instance provided all the essential Iam user permission.
-1. Creating the S3 bucket using boto3: aws_bucket_creation.ipynb
-2. Processing 1.6 TB of data using the partition in EMR jupyter Notebook: solar_ingest_input.ipynb
-3. Processing Photovoltic data using EMR jupyter Notebook and saved into local S3 bucket: pv_rooftopinput_processing.ipynb
-4. Final processing of data by joining the two data using the Geohash and final data is stored in S3 bucket for analysis. final_processing_data.ipynb
-5. Visualization in Local computer taking few data points: visualization.ipynb
-6. Heroku is used for deployement. Only few Samples of data are taken:Folder: heroku_deploy
-- All AWS EMR cluster python script: src/spark_script
 
-# Frontend Deployment using Heroku and Streamlit: 
+Python scripts can be executed directly on an EC2 instance, provided that all essential IAM user permissions are in place.
+The Jupyter Notebooks provided here are used to run an EMR cluster and set up the system.
+
+
+# Workflow Overview Using Standalone Python Scripts
+- src/spark_script
+
+# Workflow Overview Using Jupyter Notebooks
+
+- Creating the S3 bucket using Boto3: aws_bucket_creation.ipynb
+- Processing 1.6 TB of data using partitioning in EMR Jupyter Notebook: solar_ingest_input.ipynb
+- Processing photovoltaic data using EMR Jupyter Notebook and saving it to a local S3 bucket: pv_rooftopinput_processing.ipynb
+- Final data processing by joining the two datasets using Geohash; final data is stored in an S3 bucket for analysis: final_processing_data.ipynb
+- Visualization on a local computer using a subset of data: visualization.ipynb
+  
+- Deployment using Heroku (only a small sample of the data is used): Folder: heroku_deploy
+
+# Deploying the Frontend with Heroku and Streamlit
 Folder: heroku_deploy
 Link: https://tdi-captsone-uk.herokuapp.com
 
